@@ -1,7 +1,5 @@
 package com.example.musica
 
-// <-- deja aquí el package de tu proyecto
-
 import android.app.PendingIntent
 import android.content.Intent
 import androidx.media3.common.AudioAttributes

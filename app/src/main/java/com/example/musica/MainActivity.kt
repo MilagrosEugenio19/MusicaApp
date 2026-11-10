@@ -588,13 +588,11 @@ fun ControlesReproduccion(
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        TextButton(onClick = {}) { Text("🔀", fontSize = 20.sp) }
         TextButton(onClick = onAnterior) { Text("⏮", fontSize = 28.sp, color = Color.White) }
         FilledIconButton(onClick = onPlayPause, modifier = Modifier.size(64.dp)) {
             Text(if (reproduciendo) "⏸" else "▶", fontSize = 28.sp)
         }
         TextButton(onClick = onSiguiente) { Text("⏭", fontSize = 28.sp, color = Color.White) }
-        TextButton(onClick = {}) { Text("🔁", fontSize = 20.sp) }
     }
 }
 
